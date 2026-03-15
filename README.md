@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=🎬+CineMatch;AI+Movie+Recommendation+System;Find+Your+Next+Favourite+Film" alt="Typing SVG" />
-
+CineMatch
 <br/>
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -26,21 +25,21 @@
 
 ## 🌟 Three AI Engines, One App
 
-| | Engine | How it thinks | Best for |
-|:---:|:---|:---|:---|
-| 🎥 | **Find Similar Movies** | Genres, cast, director, keywords | *"I loved Inception, what else?"* |
-| ✨ | **Recommended For You** | 100k real viewer rating patterns | *"What would someone like me enjoy?"* |
-| 🎯 | **Best of Both Worlds** | Blends both with an adjustable slider | *Similar content + personal taste* |
+|     | Engine                  | How it thinks                         | Best for                              |
+| :-: | :---------------------- | :------------------------------------ | :------------------------------------ |
+| 🎥  | **Find Similar Movies** | Genres, cast, director, keywords      | _"I loved Inception, what else?"_     |
+| ✨  | **Recommended For You** | 100k real viewer rating patterns      | _"What would someone like me enjoy?"_ |
+| 🎯  | **Best of Both Worlds** | Blends both with an adjustable slider | _Similar content + personal taste_    |
 
 ---
 
 ## 📊 Model Performance
 
-| Model | Algorithm | Performance |
-|:---|:---|:---:|
-| **Content-Based** | CountVectorizer + Cosine Similarity | Avg similarity **≈ 0.20** |
+| Model             | Algorithm                               |           Performance            |
+| :---------------- | :-------------------------------------- | :------------------------------: |
+| **Content-Based** | CountVectorizer + Cosine Similarity     |    Avg similarity **≈ 0.20**     |
 | **Collaborative** | SVD Matrix Factorization (100k ratings) | RMSE **≈ 0.87** · MAE **≈ 0.67** |
-| **Hybrid** | Min-max normalised weighted blend | Slider-adjustable |
+| **Hybrid**        | Min-max normalised weighted blend       |        Slider-adjustable         |
 
 > SVD RMSE < 0.90 matches published baselines for the MovieLens-100K benchmark.
 
