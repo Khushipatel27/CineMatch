@@ -1,0 +1,40 @@
+# Environment
+.env
+env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Large binary / generated files
+*.pkl
+*.pickle
+*.h5
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private notes (interview prep, project bible — never push)
+internal/
+
+# Data (uncomment if you want to exclude raw CSVs from git)
+# data/
