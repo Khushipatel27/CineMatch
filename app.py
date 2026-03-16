@@ -196,13 +196,14 @@ popular_in_db = [m for m in POPULAR if m in titles]
 n_movies  = len(titles)
 n_ratings = collab_rec.n_ratings() if collab_ready else 0
 
+_ratings_pill = f'<span class="stat-pill">⭐ {n_ratings:,} ratings analysed</span>' if collab_ready else ""
 st.markdown(f"""
 <div class="hero">
   <h1>🎬 CineMatch</h1>
   <p>Tell us one movie you love — we'll find your next favourite.</p>
   <div class="stat-row">
     <span class="stat-pill">🎥 {n_movies:,} movies</span>
-    {"<span class='stat-pill'>⭐ " + f"{n_ratings:,} ratings analysed</span>" if collab_ready else ""}
+    {_ratings_pill}
     <span class="stat-pill">🤖 AI-powered · free · no sign-up</span>
   </div>
 </div>
